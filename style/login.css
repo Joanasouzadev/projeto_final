@@ -1,0 +1,74 @@
+body {
+    /*background: url(img_fundo.avif);*/
+    background: linear-gradient(-400deg, #a45cf7, #d25dd8 80%, #c9a3c4);
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    color: rgb(121, 118, 118);
+
+}
+h1 {
+    color: white;
+    font-family: arial;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(207, 170, 198, 0.8);
+    border-radius: 15px;
+    padding: 5px 0;
+    width: 100%;
+    margin: 0
+}
+/*caixa de login*/
+.login-completo {
+    background-color: rgb(252, 247, 247);
+    width: 453px;
+    padding: 40px;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: 0 30px 30px;
+    position: relative;
+    display: flex;
+}
+
+.login-completo .campo input {
+    width: 80%;
+    padding: 5px;
+    font-size: 8px;
+    background: transparent;
+    color: black;
+    letter-spacing: 5;
+}
+.img-login {
+    background-color: #c9a3c4;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -5%;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-login img {
+    width: 70%;
+}
+.login-completo-usuario {
+   width: 100%;
+}
+.login-completo-checkbox {
+    width: 60%;
+    font-size: 14px;
+}
+.login-completo-checkbox h2 {
+    font-size: 1.5rem;
+}
+/*buttonEntrar/ tela de cadastro*/
+
+
